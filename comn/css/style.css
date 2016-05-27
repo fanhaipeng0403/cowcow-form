@@ -1,0 +1,152 @@
+body {
+	font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+	background-color: #222;
+	font-size: 15px;
+	color: #eee;
+}
+/*ヘッダーレイアウト*/
+header {
+	background: #000;
+	margin-bottom: 30px;
+}
+
+header h1{
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	margin: 10px;
+}
+.heading-logo {
+	text-decoration: none;
+	color: #fff;
+}
+.heading-logo:hover {
+	text-decoration: none;
+	color: #eee;
+}
+/*ヘッダーログイン状態レイアウト*/
+.h-user-status {
+	color: #fff;
+	line-height: 67px;
+	text-align: right;
+}
+/*ログアウトボタンレイアウト*/
+.logout-btn {
+	line-height: 65px;
+}
+.operation-btn button{
+	margin-bottom: 10px;
+}
+
+/** ログイン画面周り **/
+.login-logo {
+	margin: 30px auto 20px;
+	border-radius: 25px;
+}
+.login-descr {
+	margin-bottom: 23px;
+	font-size: 18px;
+}
+.login-btn {
+	margin-top: 30px;
+}
+label {
+	font-size: 18px;
+}
+/*ボタンレイアウト*/
+.btn-info {
+	color: #eee;
+	background-color: #777;
+	border-color: #666;
+}
+.btn-info:hover {
+	color: #eee;
+	background-color: #666;
+	border-color: #555;
+}
+
+/** 入力フォーム画面周り **/
+.panel-body {
+	background: #222;
+}
+/*input-descrレイアウト*/
+.input-descr {
+	margin: 20px auto;
+	padding: 10px;
+}
+.input-descr .panel {
+	color: #dc143c;
+	padding: 8px 0 0;
+}
+/*フォーム見出し*/
+.panel-heading {
+	font-size: 18px;
+}
+.mgnb7 {
+	margin-bottom: 7px;
+}
+.gender {
+	padding: 0 13px;
+	background: #fff;
+}
+.gender label{
+	font-size: 14px;
+	color: #666;
+}
+
+/** 確認画面周り **/
+.mgnb40 {
+	margin-bottom: 40px;
+}
+.table-low-btn button {
+	margin-bottom: 15px;
+}
+/*テーブルレイアウト*/
+.table tbody tr th {
+	padding: 14px;
+	text-align: center;
+	background: #333;
+}
+.table tbody tr td {
+	padding: 14px;
+	color: #222;
+}
+/** 登録完画面周りレイアウト **/
+.comp-text {
+	font-size: 22px;
+}
+/*フッターを一番下に固定*/
+html,body{
+	height: 100%;
+}
+#wrap{
+	width: 100%;
+	position: relative;
+	height:auto !important; /*IE6対策*/
+	height: 100%; /*IE6対策*/
+	min-height: 100%;
+}
+#contents{
+	padding: 0 10px 30px;
+}
+footer{
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	bottom: 0;
+}
+
+/*** スマホ用レイアウト ***/
+@media (max-width: 768px) {
+	header h1{
+		font-size: 20px;
+		margin: 10px;
+	}
+	.h-user-status {
+		line-height: 50px;
+		text-align: left;
+	}
+	.logout-btn {
+		line-height: 50px;
+	}
+}
